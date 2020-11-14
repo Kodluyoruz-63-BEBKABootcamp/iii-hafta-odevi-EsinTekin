@@ -33,7 +33,7 @@
 -   Extension metod da tanımlı parametrelerden sadece 1 tanesi  **this**  keyword'ü ile tanımlanır.
 ## 5. MVC'nin alternatifleri nelerdir ?
 > MVP ve MVVM MVC alternatifleri olarak gösterilebilirler. MVVM, bugün özellikle mobil(android, iOS), UWP, WPF için uygulamalar geliştirirken tercih edilen yazılım mimarilerinden bir tanesi. **MVVM**, **Presentation Model** mimarisinin **WPF** ve **Silverlight** teknolojileri için **özelleştirilmiş** bir halidir. Doğrudan Silverlight ve WPF için özelleştirilmiş bir uygulama geliştirme mimarisi olduğu içinde haliyle bu teknolojilerin tüm özelllikleri fazlasıyla bu mimari model içerisinde kullanılmakta.
-- **Model :** Model, uygulama içerisinde kullanacağımız olan datadır. Bu datalar WCF RIA Services ile döndürülen entityler olabileceği gibi doğrudan tanımlanmış POCO nesneleri de olabilir**.**
+- **Model :** Model, uygulama içerisinde kullanacağımız olan datadır. Bu datalar WCF RIA Services ile döndürülen entityler olabileceği gibi doğrudan tanımlanmış POCO nesneleri de olabilir.
 - **View :** View, datanın sunulduğu katmandır. Tüm görsellikler View'da yer alır. Kısaca verinin sunulduğu yerdir(**Ekran**).
 - **ViewModel :** ViewModel ise  **Model** ile  **View'ı** bağlayan yapıdır. View ile Model arasında bir yapıştırıcı görevi görür. View doğrudan ViewModel yardımıyla Model'e erişir ve bazı işlemleri gerçekleştirir. Teknolojik olarak WPF veya Silverlight teknolojilerinden konuşursak  **ViewModel** aslında  **View'ın  _DataContext'idir_**.
 > MVVM getirdiği artılar şu şekildedir. 
